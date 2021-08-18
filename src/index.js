@@ -11,7 +11,7 @@ const server= http.createServer(app);
 const io = socketio.listen(server);
 
 // db conection
-mongoose.connect('mongodb+srv://stmendozza:@sAra1739@cluster0.p7g9l.mongodb.net/myFirstDatabase?retryWrites=true&w=majority')
+mongoose.connect('mongodb+srv://stmendozza:f8hiSaiXVWxXTx25@cluster0.p7g9l.mongodb.net/myFirstDatabase?retryWrites=true&w=majority')
   .then(db => console.log('db is connected'))
   .catch(err => console.log(err));
 
